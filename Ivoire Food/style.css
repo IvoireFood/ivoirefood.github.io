@@ -276,17 +276,15 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .custom-div {
-  width: 650px;
-  height: 120px;
-  background-color: #FFB649;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #5C2503;
-  text-decoration:none;;
-  font-size: 48px;
-  font-family: 'Great Vibes', cursive;
-  text-align: center;
+    width: 700px;
+    height: 120px;
+    background-color: #FFB649;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5C2503;
+    font-size: 48px;
+    font-family: 'Great Vibes',
 }
 
 #bodycontact {
@@ -411,24 +409,12 @@ position:relative;
     padding-left: 20px;
     }
 }
-.liens {
-  display: none;
-}
+
 #middlediv {
 width:20px;
 height:1000px;
 position:absolute;
 left:1000px;
-  }
-  #maingauche {
-    width: 100%;
-    height: 100%;
-     margin-left: auto; 
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    justify-content: center;
-    align-items: center;
   }
 
   .gradient-div {
@@ -453,10 +439,6 @@ left:1000px;
     vertical-align: middle;
     margin-right: 10px;
   }
-  #bottomdiv {
-    flex-direction: column;
-    align-items: center;
-  }
 
 
   .custom-div {
@@ -467,12 +449,12 @@ left:1000px;
     justify-content: center;
     align-items: flex-end;
     color: #5C2503;
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Great Vibes', cursive;
-    margin: 40px 0px;
+  }
     
 }
 
 
-}
+
 

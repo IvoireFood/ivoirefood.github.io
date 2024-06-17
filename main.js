@@ -22,3 +22,25 @@ function showSlide(n) {
     dots[n].classList.add('active');
 }
 
+    function button() {
+    var liens = document.querySelectorAll('.liens');
+    var button = document.getElementById('toggleButton');
+    var divgauche = document.getElementById('maingauche');
+
+    // Check the current state of the first link to determine whether to hide or show
+    if (liens[0].style.display === 'none') {
+        // Show the links
+        liens.forEach(function(lien) {
+            lien.style.display = 'inline';
+        });
+        divgauche.style.display = 'none';
+        button.textContent = 'Cacher les liens';
+    } else {
+        // Hide the links
+        liens.forEach(function(lien) {
+            lien.style.display = 'none';
+        });
+        divgauche.style.display = 'inline';
+        button.textContent = 'Afficher les liens';
+    }
+    };
