@@ -64,7 +64,7 @@ box-shadow: 1 4px 8px rgba(40, 13, 0, 0.3); /* Effet de drop shadow */
 }
 #plats {
 font: size 150px;
-font-family: roboto;
+font-family: "DM Sans", sans-serif;
   color:#5C2503;
   text-decoration:none;
   opacity: 0.8;
@@ -72,7 +72,7 @@ font-family: roboto;
 
 #petitesfaims {
   font: size 150px;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
   color:#5C2503;
   text-decoration:none;
   opacity: 0.8;
@@ -80,7 +80,7 @@ font-family: roboto;
 
   #boissons {
     font: size 150px;
-    font-family: roboto;
+    font-family: "DM Sans", sans-serif;
     color:#5C2503;
   text-decoration:none;
   opacity: 0.8;
@@ -88,7 +88,7 @@ font-family: roboto;
 
     #contacts {
       font: size 150px;
-      font-family: roboto;
+      font-family: "DM Sans", sans-serif;
       color:#5C2503;
   text-decoration:none;
   opacity: 0.8;
@@ -215,28 +215,9 @@ justify-content: space-around;
   background-color: #717171;
 }
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "DM Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,7 +240,7 @@ body {
   box-shadow: 1px 4px 8px rgba(0, 0, 0.1, 0.1); /* Effet de drop shadow */
   color:#5C2503; 
   opacity: 0.8;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 .icon {
@@ -272,7 +253,7 @@ body {
 #livraisondetails {
   align-items: center;
   justify-content: center;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
@@ -295,7 +276,7 @@ body {
 display:flex;
 flex-direction:column;
 color:#5C2503;
-font-family: roboto;
+font-family: "DM Sans", sans-serif;
 
 }
 
@@ -311,7 +292,7 @@ font-family: roboto;
   padding: 10px 20px;
   border-radius: 10px;
   display: inline-block;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 #titrePetitesFaims {
@@ -326,7 +307,7 @@ font-family: roboto;
   padding: 10px 20px;
   border-radius: 10px;
   display: inline-block;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 #titreBoissons {
@@ -341,7 +322,7 @@ font-family: roboto;
   padding: 10px 20px;
   border-radius: 10px;
   display: inline-block;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 #titreContacts {
@@ -358,7 +339,7 @@ font-family: roboto;
   border-radius: 10px;
   display: inline-block;
   margin-bottom: 30px;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
 }
 
 #carte {
@@ -375,17 +356,17 @@ align-self: center;
 
 #semaine {
   color: #5C2503;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
   }
   
 #contact-info {
   color: #5C2503;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
   }
   
 #adresse {
   color: #5C2503;
-  font-family: roboto;
+  font-family: "DM Sans", sans-serif;
   }
 
   .contact-info {
